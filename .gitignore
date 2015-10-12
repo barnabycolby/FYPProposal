@@ -1,0 +1,4 @@
+# Ignore all latex produced files
+proposal.log
+proposal.aux
+proposal.pdf
