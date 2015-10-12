@@ -1,0 +1,10 @@
+- The problem with passwords
+- How does SQRL solve the problem
+- What will the work involve
+  - Core
+  - Extras
+  - Fall-back positions
+- What resources are required
+- Timetable of work
+  - List of phases
+  - When will each phase be complete
