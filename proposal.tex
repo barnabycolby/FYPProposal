@@ -1,4 +1,6 @@
-\documentclass[a4paper,11pt]{article} % 11pt font size pushes the timeline onto a new page without looking separated from the rest of the content
+\documentclass[a4paper,11pt]{article} % 11pt is the magic font size to make the document look good
+
+\usepackage{float}
 
 % The following packages and commands are required for the timetable
 \usepackage[utf8]{inputenc}
@@ -30,6 +32,6 @@ Student ID:\ 1234563}
     \subsection*{Extras} \input{tex/theWork/extras.tex}
 \section*{Technologies used} \input{tex/technologiesUsed.tex}
 \section*{What resources are required} \input{tex/requiredResources.tex}
-\input{tex/timeline.tex} % The title of this section is handled by the table
+\section*{Timeline of work} \input{tex/timeline.tex}
 
 \end{document}
