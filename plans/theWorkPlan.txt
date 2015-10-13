@@ -1,0 +1,17 @@
+Each position builds on the last, for example, Fallback position 2 includes all of the work in Fallback position 1 as well.
+
+- Fallback position 1
+  - Basic authentication
+  - QR code scanning
+  - Master key generation (Entropy harvesting)
+- Fallback position 2
+  - Password protection (including hint functionality)
+  - Secure storage of users key (including TPM)
+- Core
+  - Identity lock protocol
+  - Master identity key import and export
+- Extras
+  - Basic server side implementation
+  - Server side support for identity lock mechanism
+  - Server side library
+  - Username and password based fallback mechanism
