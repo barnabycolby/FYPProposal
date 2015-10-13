@@ -1,0 +1,22 @@
+\newcommand{\foo}{\color{LightSteelBlue3}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
+\begin{table}
+\renewcommand\arraystretch{1.4}\arrayrulecolor{LightSteelBlue3}
+\captionsetup{singlelinecheck=false, font=blue, labelfont=sc, labelsep=quad}
+\caption{Timeline}\vskip -1.5ex
+\begin{tabular}{@{\,}r <{\hskip 2pt} !{\foo} >{\raggedright\arraybackslash}p{5cm}}
+\toprule
+\addlinespace[1.5ex]
+23rd October & Project start\\
+30th October (1 week) & Planning and design of software architecture\\
+20th November (3 weeks) & Basic authentication\\
+27th November (1 week) & QR code scanning\\
+11th December (2 weeks) & Master key generation (Entropy harvester)\\
+1st January (3 weeks) & Password protection (including hint functionality)\\
+15th January (2 weeks) & Secure storage of client-side keys (including TPM)\\
+12th February(4 weeks) & Identity lock protocol\\
+4th March (3 weeks) & Master identity key import and export\\
+25th March (3 weeks) & Report\\
+8th April (2 weeks) & Contingency\\
+8th April & Project end\\
+\end{tabular}
+\end{table}
