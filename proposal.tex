@@ -1,6 +1,7 @@
 \documentclass[a4paper,11pt]{article} % 11pt is the magic font size to make the document look good
 
-\usepackage{float}
+% For embedded hyperlinks
+\usepackage{hyperref}
 
 % The following packages and commands are required for the timetable
 \usepackage[utf8]{inputenc}
@@ -10,10 +11,11 @@
 \usepackage[x11names]{xcolor}
 \usepackage{colortbl}
 \usepackage{caption}
+\usepackage{float}
 \DeclareCaptionFont{blue}{\color{LightSteelBlue3}}
 
 \begin{document}
-\title{Final Year Project Proposal\\SQRL Client and Server}
+\title{Final Year Project Proposal\\SQRL Client Android Application}
 \author{Barnaby Colby\\
 Student ID:\ 1234563}
 \date{October 2015}
@@ -24,14 +26,14 @@ Student ID:\ 1234563}
 
 % The asterisks prevent the sections from being numbered
 \section*{The problem with usernames and passwords} \input{tex/problemWithPasswords.tex}
-\section*{How does SQRL solve the problem} \input{tex/sqrlSolution.tex}
-\section*{What will the work involve} \input{tex/whatWillWorkInvolve.tex}
+\section*{How does SQRL overcome these problems} \input{tex/sqrlSolution.tex}
+\section*{What will the project involve} \input{tex/whatWillWorkInvolve.tex}
     \subsection*{Fallback position 1} \input{tex/theWork/fallback1.tex}
     \subsection*{Fallback position 2} \input{tex/theWork/fallback2.tex}
     \subsection*{Core} \input{tex/theWork/core.tex}
     \subsection*{Extras} \input{tex/theWork/extras.tex}
-\section*{Technologies used} \input{tex/technologiesUsed.tex}
-\section*{What resources are required} \input{tex/requiredResources.tex}
+\section*{Which technologies will be used} \input{tex/technologiesUsed.tex}
+\section*{What resources will be required} \input{tex/requiredResources.tex}
 \section*{Timeline of work} \input{tex/timeline.tex}
 
 \end{document}
